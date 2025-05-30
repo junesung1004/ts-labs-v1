@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // js 버전을 몇 버전으로 컴파일 할거냐?
+    "strict": true, // 엄격한 구조
+    // "strictNullChecks": false, // null이나 undefiend의 타입 비교를 엄격하게 하겠다.
+    "outDir": "dist", // 컴파일된 파일의 경로에 파일을 추가하겠다.
+    // ↓↓↓ 이 옵션을 주지 않으면 타입스크립트의 여러 파일이 하나의 파일로 인식되어 각 파일마다 export {}를 선언해야함
+    "moduleDetection": "force"
+  },
+  "include": ["src"]
+}
