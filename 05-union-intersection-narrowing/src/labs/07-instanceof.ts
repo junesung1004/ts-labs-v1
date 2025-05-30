@@ -22,3 +22,5 @@ function handleError(err: Error) {
 // handleError(new NotFoundError("User"));
 // handleError(new ValidationError("email"));
 // handleError(new Error("알 수 없는 에러"));
+
+export {};

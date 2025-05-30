@@ -14,3 +14,5 @@ const listResponse: ApiResponse<string[]> = {
   status: 200,
   data: ["a", "b", "c"],
 };
+
+export {};

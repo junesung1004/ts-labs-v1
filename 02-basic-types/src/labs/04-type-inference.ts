@@ -14,3 +14,8 @@ let scores = [100, "A", true]; // 여러 타입이 섞인 배열 추론 결과�
 // (2) const와 let의 타입 추론 차이도 확인해보세요.
 const pi = 3.14; // pi 타입은?
 let e = 2.71; // e 타입은?
+
+console.log(typeof luckyNumbers);
+console.log(typeof scores);
+console.log(typeof pi);
+console.log(typeof e);

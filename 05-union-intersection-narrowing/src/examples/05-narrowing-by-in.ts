@@ -20,3 +20,5 @@ function sendNotification(notif: Notification) {
 // 사용 예시
 const sms: Notification = { phone: "010-1234-5678", message: "안녕하세요!" };
 sendNotification(sms);
+
+export {};
